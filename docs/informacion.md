@@ -32,3 +32,9 @@
 ## Presentacion video
 - explicar de qué va el proyecto y por qué se ha escogido esta temática y en qué módulo estás
 - explicar cada una de las partes cómo se ha hecho el html y su estilos: cabecera, contenido...
+    - cabecera
+        - compuesta por logo + imagen + titulo
+        - animacion al cargar la página web
+    - seccion personajes
+        - compuesta imagen + descripcion
+        - animacion ql pasar cursor por encima
