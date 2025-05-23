@@ -30,5 +30,5 @@
 - fondo
 
 ## Presentacion video
-- explicar de qué va el proyecto y por qué se ha escogido esta temática
+- explicar de qué va el proyecto y por qué se ha escogido esta temática y en qué módulo estás
 - explicar cada una de las partes cómo se ha hecho el html y su estilos: cabecera, contenido...
