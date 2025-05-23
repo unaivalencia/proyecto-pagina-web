@@ -83,7 +83,7 @@ p {
     background-color: #2d7c0c;
 }
 
-.personaje-container.princesa {
+.personaje-container.peach {
     background-color: #fa84a9;
 }
 
@@ -91,11 +91,11 @@ p {
     background-color: #f4db1e;
 }
 
-.personaje-container.donkey {
+.personaje-container.donkeykong {
     background-color: #80420e;
 }
 
-.personaje-container.donkey .personaje-imagen {
+.personaje-container.donkeykong .personaje-imagen {
     bottom: -2vw;
 }
 
@@ -108,7 +108,7 @@ p {
     left: -6vw;
 }
 
-.personaje-container.donkey:hover .personaje-imagen {
+.personaje-container.donkeykong:hover .personaje-imagen {
     width: 42vw;
     left: -12vw;
     bottom: 0;
