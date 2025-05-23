@@ -33,8 +33,8 @@ p + p {
 }
 
 .cabecera-container {
-    overflow: hidden;
-    position: relative;
+    overflow: hidden; /* hablar overflow: esconde lo que sobresalga */
+    position: relative; /* hablar posicion */
     width: 100%;
     height: 35vw;
     background-color: #0060ad;
@@ -45,12 +45,13 @@ p + p {
 }
 
 .cabecera-mario {
-    position: absolute;
-    bottom: -100%;
+    position: absolute; /* hablar posicion */
+    bottom: -100%; /* hablar bottom */
     left: 20vw;
     z-index: 1;
     width: 30vw;
-    animation: aparecerDesdeAbajo 0.5s ease-in-out 0.5s forwards;
+    animation: aparecerDesdeAbajo 0.5s ease-in-out 0.5s forwards; /* hablar animation */
+    /* hacer control+click para poder ir a la parte del keyframe*/
 }
 
 .cabecera-logo {
