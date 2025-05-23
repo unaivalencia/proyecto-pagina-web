@@ -1,4 +1,25 @@
-.cabecera {
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Catamaran:wght@400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    font-family: 'Bangers', cursive;
+    font-size: 7vw;
+    font-weight: 700;
+    color: white;
+    letter-spacing: .4vw;
+    margin: 0 0 .2vw 0;
+}
+
+p {
+    margin: 0;
+}
+
+.cabecera-container {
     overflow: hidden;
     position: relative;
     width: 100%;
@@ -25,33 +46,112 @@
     width: 20vw;
 }
 
-.personajes {
+.personajes-container {
     width: 100%;
 }
 
-.personaje {
+.seccion-titulo {
+    padding: 2vw;
+    background-color: black;
+}
+
+.personaje-container {
+    cursor: pointer;
+    position: relative;
     overflow: hidden;
-    width: 90%;
-    height: 15vw;
+    width: 100vw;
+    height: 4vw;
     background-color: red;
-    margin-bottom: 1vw;
-    padding: 1vw;
+    margin-bottom: .5vw;
+    padding: 2vw;
+    transition: all 0.3s ease-in-out;
+}
+
+.personaje-container:hover {
+    height: 25vw;
+}
+
+.personaje-container:last-child {
+    margin-bottom: 0;
+}
+
+.personaje-container.mario {
+    background-color: red;
+}
+
+.personaje-container.luigi {
+    background-color: #2d7c0c;
+}
+
+.personaje-container.princesa {
+    background-color: #fa84a9;
+}
+
+.personaje-container.bowser {
+    background-color: #f4db1e;
+}
+
+.personaje-container.donkey {
+    background-color: #80420e;
+}
+
+.personaje-container.donkey .personaje-imagen {
+    bottom: -2vw;
+}
+
+.personaje-container.bowser .personaje-imagen {
+    bottom: -2vw;
+}
+
+.personaje-container:hover .personaje-imagen {
+    width: 44vw;
+    left: -6vw;
+}
+
+.personaje-container.donkey:hover .personaje-imagen {
+    width: 42vw;
+    left: -12vw;
+    bottom: 0;
+}
+
+.personaje-container.bowser:hover .personaje-imagen {
+    width: 36vw;
+    left: -6.5vw;
+    bottom: 0;
 }
 
 .personaje-imagen {
-    float: left;
-    display: inline-block;
-    width: 25vw;
+    position: absolute;
+    bottom: 0;
+    left: 2vw;
+    width: 20vw;
+    transition: all 0.3s ease-in-out;
 }
 
 .personaje-descripcion {
-    display: inline-block;
-    float: right;
+    float: left;
+    width: 65vw;
+    padding-left: 27vw;
 }
 
-.personaje h3 {
-    font-size: 3vw;
+.personaje-descripcion h3 {
+    font-family: 'Bangers', cursive;
+    font-size: 5vw;
+    font-weight: 700;
     color: white;
+    letter-spacing: .4vw;
+    margin: 0 0 1vw 0;
+}
+
+.personaje-descripcion p {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.4vw;
+    color: white;
+    line-height: 1.9vw;
+}
+
+.personaje-descripcion p + p {
+    margin-top: 1vw;
 }
 
 @keyframes aparecerDesdeAbajo {
