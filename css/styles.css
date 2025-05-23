@@ -156,8 +156,11 @@ p {
 
 .juego {
     float: left;
-    width: 25vw;
 }	
+
+.juego img {
+    width: 25vw;
+}
 
 @keyframes aparecerDesdeAbajo {
     from {
