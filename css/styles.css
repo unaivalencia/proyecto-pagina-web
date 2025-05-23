@@ -23,6 +23,15 @@ h2, h3, p {
     margin: 0;
 }
 
+p {
+    font-family: 'Catamaran', sans-serif;
+    line-height: 1.9vw;
+}
+
+p + p {
+    margin-top: 1vw;
+}
+
 .cabecera-container {
     overflow: hidden;
     position: relative;
@@ -154,10 +163,6 @@ h2, h3, p {
     line-height: 1.9vw;
 }
 
-.personaje-descripcion p + p {
-    margin-top: 1vw;
-}
-
 .juego {
     cursor: pointer;
     overflow: hidden;
@@ -176,10 +181,7 @@ h2, h3, p {
 }
 
 .juego p {
-    font-family: 'Catamaran', sans-serif;
-    font-size: 1.2vw;
     color: white;
-    line-height: 1.9vw;
 }
 
 .juego img {
@@ -206,31 +208,23 @@ h2, h3, p {
 
 .empresa-info {
     width: 100vw;
-    background-color: #0060ad;
     padding: 3vw 2vw;
     box-sizing: border-box;
     margin-bottom: 2vw;
     overflow: hidden;
 }
 
-.empresa-foto {
+.empresa-info img {
     float: left;
     width: 22vw;
     max-width: 22vw;
     margin-right: 3vw;
 }
 
-.empresa-foto img {
-    width: 100%;
-    height: auto;
-    border-radius: 1vw;
-    box-shadow: 0 0.5vw 2vw rgba(0,0,0,0.25);
-}
-
 .empresa-descripcion {
     float: left;
     width: calc(100vw - 22vw - 3vw - 4vw); /* 4vw for left/right padding */
-    color: white;
+    color: black;
     font-family: 'Catamaran', sans-serif;
     font-size: 1.5vw;
     line-height: 2vw;

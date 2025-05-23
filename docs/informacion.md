@@ -28,3 +28,7 @@
 - logo
 - nombre de la empresa
 - fondo
+
+## Presentacion video
+- explicar de qué va el proyecto y por qué se ha escogido esta temática
+- explicar cada una de las partes cómo se ha hecho el html y su estilos: cabecera, contenido...
