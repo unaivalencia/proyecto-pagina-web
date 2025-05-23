@@ -154,6 +154,12 @@ p {
     margin-top: 1vw;
 }
 
+.juego {
+ float: left;
+    width: 65vw;
+    padding-left: 27vw;
+}	
+
 @keyframes aparecerDesdeAbajo {
     from {
         bottom: -100%;
