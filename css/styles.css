@@ -155,9 +155,8 @@ p {
 }
 
 .juego {
- float: left;
-    width: 65vw;
-    padding-left: 27vw;
+    float: left;
+    width: 25vw;
 }	
 
 @keyframes aparecerDesdeAbajo {
